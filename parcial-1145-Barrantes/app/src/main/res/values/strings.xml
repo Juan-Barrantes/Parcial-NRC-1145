@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">parcial1145-barrantes</string>
+    <string name="hbo">HBO</string>
+    <string name="netflix">Netflix</string>
+    <string name="primevideo">Primevideo</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="enter_your_e_mail">Enter your e-mail</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="skip">Skip</string>
+    <string name="play_now">Play now</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hbo1">
+        Peacemaker is an American superhero television series created by James Gunn for the streaming service HBO Max, based on the DC Comics character Peacemaker. It is the first DC Extended Universe (DCEU) television series and a spin-off from the 2021 film The Suicide Squad. Set after the events of the film, the series further explores jingoistic killer Christopher Smith / Peacemaker. It is produced by The Safran Company and Troll Court Entertainment in association with Warner Bros. Television, with Gunn serving as showrunner.
+    </string>
+    <string name="hbo1descripcion">
+        John Felix Anthony Cena was born on April 23, 1977 in West Newbury, Massachusetts to Carol Cena and John Cena. He is of Italian (father) and French-Canadian and English (mother) descent, and is the grandson of baseball player Tony Lupien. When he was in college, he played football.
+    </string>
+    <string name="hbo2descripcion">
+        Jennifer Holland (born November 9, 1987), is an American actress. She is best known for her work as Emilia Harcourt in the film The Suicide Squad and the television series Peacemaker. She also appeared as Ashley in American Pie Presents: The Book of Love.
+    </string>
+    <string name="play">Play</string>
+
+    <string name="rickMorty">
+              An animated series on adult-swim about the infinite adventures of Rick, a genius alcoholic and careless scientist, with his grandson Morty, a 14 year-old anxious boy who is not so smart. Together, they explore the infinite universes; causing mayhem and running into trouble.
+    </string>
+
+    <string name="rickSerie">
+          Rick Sanchez, also known as Rick (C-137), is one of the titular two main protagonists (alongside Morty Smith) and one of the five main characters of the science fiction adult animated comedy series Rick and Morty.
+    </string>
+    <string name="morty">
+          Mortimer "Morty" Smith Sr. is one of the two titular main protagonists (alongside Rick Sanchez) and one of the five main characters of Rick and Morty.
+    </string>
+</resources>

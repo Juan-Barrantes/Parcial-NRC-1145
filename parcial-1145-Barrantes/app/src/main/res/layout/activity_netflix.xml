@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/negro"
+    tools:context=".NetflixActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:elevation="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/netflix" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="50dp">
+
+                        <ImageView
+                            android:id="@+id/n1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            tools:src="@drawable/n1"
+                            app:srcCompat="@drawable/n1"/>
+
+                        <Button
+                            android:id="@+id/btnN1"
+                            style="@style/botonNetflix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="120dp"
+                            android:background="@drawable/fondo_boton_netflix"
+                            android:paddingLeft="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingBottom="0dp"
+                            android:text="@string/play"
+                            android:textAllCaps="false"
+                            android:theme="@style/Button.black"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="50dp">
+
+                        <ImageView
+                            android:id="@+id/n2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            tools:srcCompat="@drawable/n2"
+                            app:srcCompat="@drawable/n2"/>
+
+                        <Button
+                            android:id="@+id/btnN2"
+                            style="@style/botonNetflix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="120dp"
+                            android:background="@drawable/fondo_boton_netflix"
+                            android:paddingLeft="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingBottom="0dp"
+                            android:text="@string/play"
+                            android:textAllCaps="false"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="50dp">
+
+                        <ImageView
+                            android:id="@+id/n3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            tools:srcCompat="@drawable/n3"
+                            app:srcCompat="@drawable/n3"/>
+
+                        <Button
+                            android:id="@+id/btnN3"
+                            style="@style/botonNetflix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="120dp"
+                            android:background="@drawable/fondo_boton_netflix"
+                            android:paddingLeft="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingBottom="0dp"
+                            android:text="@string/play"
+                            android:textAllCaps="false"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="50dp">
+
+                        <ImageView
+                            android:id="@+id/n4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            tools:srcCompat="@drawable/n4"
+                            app:srcCompat="@drawable/n4"/>
+
+                        <Button
+                            android:id="@+id/btnN4"
+                            style="@style/botonNetflix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="120dp"
+                            android:background="@drawable/fondo_boton_netflix"
+                            android:paddingLeft="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingBottom="0dp"
+                            android:text="@string/play"
+                            android:textAllCaps="false"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="50dp">
+
+                        <ImageView
+                            android:id="@+id/n5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            tools:srcCompat="@drawable/n5"
+                            app:srcCompat="@drawable/n5"/>
+
+                        <Button
+                            android:id="@+id/btnN5"
+                            style="@style/botonNetflix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="120dp"
+                            android:background="@drawable/fondo_boton_netflix"
+                            android:paddingLeft="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingBottom="0dp"
+                            android:text="@string/play"
+                            android:textAllCaps="false"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="50dp">
+
+                        <ImageView
+                            android:id="@+id/n6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            tools:srcCompat="@drawable/n6"
+                            app:srcCompat="@drawable/n6"/>
+
+                        <Button
+                            android:id="@+id/btnN6"
+                            style="@style/botonNetflix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="120dp"
+                            android:background="@drawable/fondo_boton_netflix"
+                            android:paddingLeft="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingBottom="0dp"
+                            android:text="@string/play"
+                            android:textAllCaps="false"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="50dp">
+
+                        <ImageView
+                            android:id="@+id/n7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            tools:srcCompat="@drawable/n7"
+                            app:srcCompat="@drawable/n7"/>
+
+                        <Button
+                            android:id="@+id/btnN7"
+                            style="@style/botonNetflix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="120dp"
+                            android:background="@drawable/fondo_boton_netflix"
+                            android:paddingLeft="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingBottom="0dp"
+                            android:text="@string/play"
+                            android:textAllCaps="false"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="50dp">
+
+                        <ImageView
+                            android:id="@+id/n8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            tools:srcCompat="@drawable/n8"
+                            app:srcCompat="@drawable/n8"/>
+
+                        <Button
+                            android:id="@+id/btnN8"
+                            style="@style/botonNetflix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="120dp"
+                            android:background="@drawable/fondo_boton_netflix"
+                            android:paddingLeft="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingBottom="0dp"
+                            android:text="@string/play"
+                            android:textAllCaps="false"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="50dp">
+
+                        <ImageView
+                            android:id="@+id/n9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            tools:srcCompat="@drawable/n9"
+                            app:srcCompat="@drawable/n9"/>
+
+                        <Button
+                            android:id="@+id/btnN9"
+                            style="@style/botonNetflix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="20dp"
+
+                            android:layout_marginTop="120dp"
+                            android:paddingLeft="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingBottom="0dp"
+                            android:text="@string/play"
+                            android:textAllCaps="false"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="50dp">
+
+                        <ImageView
+                            android:id="@+id/n10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            tools:srcCompat="@drawable/n10"
+                            app:srcCompat="@drawable/n10"/>
+
+                        <Button
+                            android:id="@+id/btnN10"
+                            style="@style/botonNetflix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="120dp"
+                            android:paddingLeft="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingBottom="0dp"
+                            android:text="@string/play"
+                            android:textAllCaps="false"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="50dp">
+
+                        <ImageView
+                            android:id="@+id/n11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            tools:srcCompat="@drawable/n11"
+                            app:srcCompat="@drawable/n11"/>
+
+                        <Button
+                            android:id="@+id/btnN11"
+                            style="@style/botonNetflix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="120dp"
+                            android:paddingLeft="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingBottom="0dp"
+                            android:text="@string/play"
+                            android:textAllCaps="false"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="50dp">
+
+                        <ImageView
+                            android:id="@+id/n12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            tools:srcCompat="@drawable/n12"
+                            app:srcCompat="@drawable/n12" />
+
+                        <Button
+                            android:id="@+id/btnN12"
+                            style="@style/botonNetflix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="120dp"
+                            android:paddingLeft="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingBottom="0dp"
+                            android:text="@string/play"
+                            android:textAllCaps="false"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

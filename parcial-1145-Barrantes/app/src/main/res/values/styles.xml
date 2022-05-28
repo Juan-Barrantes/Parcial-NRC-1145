@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="boton_escritorio">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:elevation">5dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:paddingTop">30dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="botonNetflix">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/fondo_boton_netflix</item>
+    </style>
+
+
+
+
+</resources>
